@@ -10,3 +10,6 @@
 ;;Server用
 (global-set-key (kbd "C-x C-c") 'suspend-emacs) ;emacs休止
 (defalias 'exit 'save-buffers-kill-emacs) ;M-x exit で emacs終了
+;;markdown
+(global-set-key (kbd "C-c r") 'markdown-preview-mode)
+
